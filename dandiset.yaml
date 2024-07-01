@@ -15,9 +15,9 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 1616268840
-  numberOfFiles: 8
-  numberOfSubjects: 3
+  numberOfBytes: 121941206
+  numberOfFiles: 1
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
@@ -25,16 +25,22 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ProcessingModule
-citation: 'Filipe, Carolina (2024) NeuroTask - Two Workspace Random Target: A Benchmark
-  Dataset for Multi-Task, -Session and -Subject Neural Analysis (Version draft) [Data
-  set]. DANDI archive. https://dandiarchive.org/dandiset/001058/draft'
+citation: 'Filipe, A. Carolina; Park, Il Memming (2024) NeuroTask - Two Workspace
+  Random Target: A Benchmark Dataset for Multi-Task, -Session and -Subject Neural
+  Analysis (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001058/draft'
 contributor:
 - affiliation: []
   email: a.carolina.filipe@gmail.com
   includeInCitation: true
-  name: Filipe, Carolina
+  name: Filipe, A. Carolina
   roleName:
   - dcite:ContactPerson
+  schemaKey: Person
+- email: memming.park@research.fchampalimaud.org
+  includeInCitation: true
+  name: Park, Il Memming
+  roleName:
+  - dcite:Supervision
   schemaKey: Person
 dateCreated: '2024-06-14T13:42:27.754535+00:00'
 description: 'NeuroTask is a benchmark dataset designed to facilitate the development
